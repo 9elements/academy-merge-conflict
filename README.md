@@ -12,22 +12,22 @@ And take a look at all commits to understand what has been done.
 
 Now merge the "master" with "tobi":
 
-  git checkout master
-  git merge tobi
+    git checkout master
+    git merge tobi
 
 Now merge the "master" with "felix":
 
-  git checkout master
-  git merge felix
+    git checkout master
+    git merge felix
 
 Happy merge conflict fixing.
 
 Now reset master to the "starting-point"
 
-  git checkout starting-point
+    git checkout starting-point
 
-  git rebase tobi
-  git rebase felix
+    git rebase tobi
+    git rebase felix
 
 Happy merge conflict fixing.
 
@@ -38,6 +38,6 @@ Understand what git push -f means for your coworkers.
 
 Bonus round:
 
-  git merge strangedude
-  git rebase strangedude
+    git merge strangedude
+    git rebase strangedude
 
