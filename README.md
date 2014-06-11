@@ -36,4 +36,8 @@ to use git push -f.
 
 Understand what git push -f means for your coworkers.
 
+Bonus round:
+
+  git merge strangedude
+  git rebase strangedude
 
